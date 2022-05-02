@@ -6,4 +6,9 @@ class prodottiECommerce{
     private $lettiera;
     private $antiparassitario;
 }
+
+
+$eCommerce = new prodottiECommerce();
+var_dump($eCommerce)
 ?>
+ 
