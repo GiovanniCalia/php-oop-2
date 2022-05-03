@@ -13,7 +13,7 @@ class prodottiECommerce{
         $this->marca = $_marca;
     }
 
-    
+    /*
     public function disponibilità(string $_disponibilità){
         if ($_disponibilità === "maggio" || $_disponibilità === "giugno" || $_disponibilità === "luglio" || $_disponibilità === "agosto"){
             return "L'antiparassitario è disponibile";
@@ -21,6 +21,8 @@ class prodottiECommerce{
             return "L'antiparassitario non è disponibile";
         }
     }
+    */
+    
 
     /*
     public function getNome()

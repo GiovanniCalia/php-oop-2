@@ -40,6 +40,10 @@ class utenteRegistrato extends utente{
 $registrato = new utenteRegistrato();
 $registrato->setPrezzo(120);
 var_dump($registrato);
-echo $registrato->prezzoFinale()
+echo $registrato->prezzoFinale();
+
+/*$date = date("H:i:s/d.m.Y");
+var_dump($date)
+*/
 ?>
 

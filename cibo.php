@@ -3,27 +3,17 @@
 include_once __DIR__ . "/index.php";
 
 class cibo extends prodottiECommerce{
-    private $animal;
+    protected $animal;
+    protected $scadenza;
 
-    public function __construct($_nome, $_prezzo, $_quantità, $_marca, $_animal){
-        $this->nome = $_nome;
-        $this->prezzo = $_prezzo;
-        $this->quantità = $_quantità;
-        $this->marca = $_marca;
+    public function __construct($_nome, $_prezzo, $_quantità, $_marca, $_animal, $_scadenza){
+        parent::__construct($_nome,$_prezzo,$_quantità,$_marca);
         $this->animal = $_animal;
-    }
+        $this->scadenza = $_scadenza;
 
-    public function setAnimal($animal)
-    {
-        $this->animal = $animal;
-    }
-
-    public function getAnimal()
-    {
-        return $this->animal;
     }
 }
 
-$food = new cibo("cibo", 15, 200, "monge", "cane");
+$food = new cibo("cibo", 15, 200, "monge", "cane", 2022);
 var_dump($food);
 ?>
