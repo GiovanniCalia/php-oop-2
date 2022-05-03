@@ -12,4 +12,7 @@ class cartaDiCredito{
         $this->expire = $_expire;
     }
 }
+
+$cartaCredito = new cartaDiCredito("ordine", 5706, 20, 20);
+var_dump($cartaCredito)
 ?>

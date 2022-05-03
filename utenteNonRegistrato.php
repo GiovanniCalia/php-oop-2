@@ -7,4 +7,6 @@ class utenteNonRegistrato extends utente{
 
 }
 
+$nonRegistrato = new utenteNonRegistrato();
+var_dump($nonRegistrato)
 ?>

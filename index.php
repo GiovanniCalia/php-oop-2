@@ -22,60 +22,6 @@ class prodottiECommerce{
         }
     }
     */
-    
-
-    /*
-    public function getNome()
-    {
-        return $this->nome;
-    }
-
-    public function setNome($nome)
-    {
-        $this->nome = $nome;
-
-        return $this;
-    }
-
-    public function getPrezzo()
-    {
-        return $this->prezzo;
-    }
-
-    public function setPrezzo($prezzo)
-    {
-        $this->prezzo = $prezzo;
-
-        return $this;
-    }
-
-
-    public function getQuantità()
-    {
-        return $this->quantità;
-    }
-
-
-    public function setQuantità($quantità)
-    {
-        $this->quantità = $quantità;
-
-        return $this;
-    }
-
-
-    public function getMarca()
-    {
-        return $this->marca;
-    }
-
-    public function setMarca($marca)
-    {
-        $this->marca = $marca;
-
-        return $this;
-    }
-    */
 }
 ?>
  
